@@ -1,0 +1,16 @@
+{
+  "name": "tailwindpages",
+  "version": "1.0.0",
+  "description": "Tailwind Pages App",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./tailwindpages/templates/base.css -o ./tailwindpages/public/css/styles.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  }
+}
